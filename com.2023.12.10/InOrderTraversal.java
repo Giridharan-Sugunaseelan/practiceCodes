@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-/*class Node
+class Node
 {
     int data;
     Node left,right;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
         data=d;
         left=right=null;
     }
-}*/
+}
 public class InOrderTraversal {
     ArrayList<Integer> inOrder(Node root) {
         // Code
