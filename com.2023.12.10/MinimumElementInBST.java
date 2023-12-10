@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-/*class Node
+class Node
 {
     int data;
     Node left,right;
@@ -9,7 +9,7 @@ import java.util.Queue;
         data=d;
         left=right=null;
     }
-}*/
+}
 public class MinimumElementInBST {
     int minValue(Node node) {
         if(node == null){
